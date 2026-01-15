@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cert III Canonical Site</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <h1>Cert III Canonical Static Site</h1>
+      <p>
+        This is a minimal HTML/CSS website served from a container (nginx).
+        Edit <code>index.html</code> or <code>styles.css</code> and refresh the page.
+      </p>
+
+      <section class="card">
+        <h2>What this demonstrates</h2>
+        <ul>
+          <li>A container running a web server</li>
+          <li>Port mapping (<code>8080</code> on the VM to <code>80</code> in the container)</li>
+          <li>A read-only bind mount from <code>./site</code> into the container</li>
+        </ul>
+      </section>
+
+      <footer>
+        <span class="tag">TAFE</span>
+        <span class="tag">Cert III</span>
+        <span class="tag">Static HTML/CSS</span>
+      </footer>
+    </main>
+  </body>
+</html>
