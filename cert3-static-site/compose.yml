@@ -1,9 +1,8 @@
 services:
   web:
-    image: nginx:alpine
+    image: nginx:alpine  # Lightweight web server image
     ports:
-      - "8080:80"
+      - "${PORT:-8080}:80"  # Expose container port 80 on the VM
     volumes:
-      - ./site:/usr/share/nginx/html:ro
+      - ./site:/usr/share/nginx/html:ro  # Serve static files
     restart: unless-stopped
-  
