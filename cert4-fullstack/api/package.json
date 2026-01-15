@@ -1,0 +1,11 @@
+{
+  "name": "cert4-api",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.10.0"
+  }
+}
